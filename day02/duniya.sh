@@ -1,0 +1,16 @@
+#!/bin/bash
+#This is jetha lal ki duniya
+<< comment
+anything
+written
+here will not be execute
+comment
+
+name="Jetha"
+echo "Name is $name, and date is $(date)"
+
+echo "Enter the name: "
+
+read username
+
+echo "You entered $username"
