@@ -1,5 +1,9 @@
 #!/bin/bash
 
-read -p "Enter username" username
+read -p "Enter username : " username
 
-echo "you 
+echo "you entered $username"
+
+sudo useradd -m $username
+
+echo "New user added"

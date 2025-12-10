@@ -14,3 +14,7 @@ echo "Enter the name: "
 read username
 
 echo "You entered $username"
+
+echo "The characters in $0 are: $1 $2"
+
+
